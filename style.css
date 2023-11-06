@@ -431,8 +431,10 @@ nav ul li a:hover {
 
 
 .more {
-  text-align: end;
+  display: flex;
+  justify-content: center;
   transition: background-color 1s;
+  margin: 0 50px;
   padding: 5px 10px;
   font-weight: bold;
   border-bottom: 2px solid rgb(56, 89, 170);
@@ -634,6 +636,11 @@ h1{
 nav ul {
   width: 100vw;
   text-align: center;
+  padding: 50px 50px;
+}
+
+nav ul li {
+  margin: 6vh 0;
 }
 
 
@@ -652,6 +659,16 @@ nav ul {
     color: rgb(56, 89, 170);
     background: #fff;
     margin-bottom: 10px;
+  }
+
+  .more {
+    display: inline;
+    justify-content: center;
+    transition: background-color 1s;
+    margin: 0 0px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(56, 89, 170);
   }
 
   /* サポートエリア */
