@@ -668,12 +668,17 @@ small {
 
   /* 基本設定 */
   #about {
-    margin: 5vh 10vw
+    margin: 0vh 10vw
   }
 
   .about_area .logo {
     display: none;
   }
+
+    
+section {
+  padding: 30px 0;
+}
 
   h1 {
     font-size: 2rem;
@@ -706,6 +711,7 @@ small {
     background: #fff;
     margin-bottom: 10px;
   }
+
 
 
   /* アニメーション */
@@ -756,8 +762,8 @@ small {
   }
 
   .course_logo {
-    width: 80%;
-    margin: 0 auto 4vh;
+    width: 60%;
+    margin: 0 auto 10px;
   }
 
 
