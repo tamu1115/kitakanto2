@@ -112,7 +112,7 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  transition: all 1s;
+  transition: all 0.3s;
 }
 
 .openbtn span:nth-child(1) {

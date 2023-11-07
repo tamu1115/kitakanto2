@@ -67,7 +67,7 @@ footer {
 .snipper img {
   display: block;
   width: 200px;
-  margin: 40vh auto;
+  margin: 35vh auto;
   animation: scaleOut 2.5s infinite ease-in-out;
 }
 
