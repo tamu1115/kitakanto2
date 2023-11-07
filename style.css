@@ -517,7 +517,7 @@ nav ul li a:hover {
 }
 
 
-.jump{
+.jump {
   height: 1px;
   display: block;
   margin-top: 80px;
@@ -675,10 +675,10 @@ small {
     display: none;
   }
 
-    
-section {
-  padding: 30px 0;
-}
+
+  section {
+    padding: 30px 0;
+  }
 
   h1 {
     font-size: 2rem;
@@ -859,21 +859,115 @@ section {
     background: rgb(56, 89, 170);
   }
 
-  
+
   .footer img {
     width: 100px;
   }
 
-  small{
+  small {
     font-size: 0.6rem;
   }
 }
 
 @media screen and (min-width:300px) and (max-width:350px) {
 
+
   .img_d,
   .img_f,
   .img_p {
-    width: 80%;
+    display: none;
+    width: 100px;
+    height: 300px;
   }
+
+  h1,
+  h3,
+  h2,
+  p,
+  a,
+  dt,
+  dd {
+    font-size: 0.6rem;
+  }
+
+  .text_box h1 {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  #about {
+    margin: 0vh 10vw
+  }
+
+  .about_area .logo {
+    display: none;
+  }
+
+
+  section {
+    padding: 10px 0;
+  }
+
+  .logo {
+    width: 150px;
+    height: 200px;
+    padding-left: 30px;
+  }
+
+  .text_box {
+    padding: 20px;
+  }
+
+  .skeleton2 {
+    display: table-column;
+  }
+
+
+  .gazo img {
+    width: 100%;
+  }
+
+  .box {
+    width: 150px;
+    margin: 0 10px;
+  }
+
+  .box img {
+    width: 150px;
+    height: 150px;
+  }
+
+
+  .content-box ul {
+    column-count: 2;
+  }
+
+  .d-box {
+    width: 100%;
+  }
+
+  .course_logo {
+    width: 70%;
+  }
+
+  
+.design {
+  display: inline;
+}
+
+.content-box li{
+  width: 100px;
+}
+
+.design_area{
+  margin-bottom: 30px;
+}
+
+.link a{
+  margin: 10px;
+}
+
 }

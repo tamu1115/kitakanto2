@@ -308,10 +308,35 @@ small {
 
 
 @media screen and (min-width:300px) and (max-width:350px) {
+  
 
-  .img_d,
-  .img_f,
-  .img_p {
-    width: 80%;
+section{
+  margin: 0;
+  padding: 0;
+}
+
+
+  h1,
+  h3,
+  h2,
+  p,
+  a,
+  dt,
+  dd {
+    font-size: 0.6rem;
   }
+
+  .box img {
+    width: 270px;
+  }
+
+  .guidance_h2{
+    width: 300px;
+  }
+
+  .guidance h2{
+    width: 300px;
+    margin-top: 100px;
+  }
+  
 }
