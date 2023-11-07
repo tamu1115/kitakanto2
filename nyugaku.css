@@ -252,7 +252,7 @@ small {
     /* アニメーション */
     .snipper img {
       width: 200px;
-      margin: 35vh auto;
+      margin: 30vh auto;
       animation: scaleOut 2.5s infinite ease-in-out;
     }
 
