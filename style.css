@@ -49,7 +49,7 @@ header {
   background-color: #fff;
 }
 
-.responsive_br{
+.responsive_br {
   display: none;
 }
 
@@ -168,7 +168,7 @@ nav {
   position: fixed;
   right: -100vw;
   height: 100vh;
-  transition: all 1s;
+  transition: all 0.5s;
   z-index: 998;
 }
 
@@ -230,6 +230,7 @@ nav ul li a:hover {
   display: none !important;
   margin-top: 100px;
 }
+
 .responsive_image2 {
   height: 70vh;
   width: 100%;
@@ -516,6 +517,13 @@ nav ul li a:hover {
 }
 
 
+.jump{
+  height: 1px;
+  display: block;
+  margin-top: 80px;
+  padding-top: -80px;
+  transform: translateY(-200px);
+}
 
 .link_area {
   display: flex;
@@ -657,6 +665,8 @@ small {
 
 /* レスポンシブ対応 */
 @media screen and (min-width:350px) and (max-width:860px) {
+
+  /* 基本設定 */
   #about {
     margin: 5vh 10vw
   }
@@ -669,10 +679,10 @@ small {
     font-size: 2rem;
   }
 
-  
-.responsive_br{
-  display: flex;
-}
+
+  .responsive_br {
+    display: flex;
+  }
 
   nav ul {
     width: 100vw;
@@ -695,6 +705,14 @@ small {
     color: rgb(56, 89, 170);
     background: #fff;
     margin-bottom: 10px;
+  }
+
+
+  /* アニメーション */
+  .snipper img {
+    width: 200px;
+    margin: 35vh auto;
+    animation: scaleOut 2.5s infinite ease-in-out;
   }
 
   .more {
@@ -721,15 +739,15 @@ small {
     align-items: center;
   }
 
-  
-.support_area{
-  padding: 0;
-}
-  
-.support_area h3 {
-  line-height: 1.5rem;
-  font-size: 1rem;
-}
+
+  .support_area {
+    padding: 0;
+  }
+
+  .support_area h3 {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
 
   #course {
     margin: 0 auto;
