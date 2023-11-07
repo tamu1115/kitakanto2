@@ -227,10 +227,10 @@ small {
 
 /* レスポンシブ対応 */
 @media screen and (min-width:350px) and (max-width:860px) {
-  
-section {
-  margin: 20px 10px;
-}
+
+  section {
+    margin: 20px 10px;
+  }
 
 
   .box {
@@ -249,6 +249,12 @@ section {
     background: #fff;
   }
 
+    /* アニメーション */
+    .snipper img {
+      width: 200px;
+      margin: 35vh auto;
+      animation: scaleOut 2.5s infinite ease-in-out;
+    }
 
 
   .box img {
