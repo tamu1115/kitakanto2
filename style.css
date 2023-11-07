@@ -858,6 +858,15 @@ section {
     height: 10vh;
     background: rgb(56, 89, 170);
   }
+
+  
+  .footer img {
+    width: 150px;
+  }
+
+  small{
+    font-size: 0.7rem;
+  }
 }
 
 @media screen and (min-width:300px) and (max-width:350px) {
